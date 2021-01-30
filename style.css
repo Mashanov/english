@@ -38,5 +38,14 @@ border-radius: 0 0 10px 10px;
 
 #go {
 position: absolute;
-right: 0;
+right: 7%;
+bottom: 7%;
+width: 60px;
+height: 60px;
+background: #c15353;
+border-radius: 50%;
+fill: #fff;
+padding: 17px;
+box-sizing: border-box;
+box-shadow: inset #ab3e3e -7px -5px 10px;
 }
