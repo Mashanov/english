@@ -1,6 +1,6 @@
 body {
 position: absolute;
-font-family: sh, Arial;
+font-family: Arial;
 font-size: 100%;
 letter-spacing: 0.1px;
 padding: 0;
@@ -13,17 +13,6 @@ top: 0;
 bottom: 0;
 margin: auto;
 background: #fff;
-}
-
-button, input {
-font-family: sh, Arial;
-font-size: 100%;
-}
-
-button {
-outline: none;
-border: 0;
-cursor: pointer;
 }
 
 img {
@@ -45,4 +34,9 @@ width: fit-content;
 color: #fff;
 letter-spacing: 2px;
 border-radius: 0 0 10px 10px;
+}
+
+#go {
+position: absolute;
+right: 0;
 }
