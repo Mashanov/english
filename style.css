@@ -39,6 +39,7 @@ text-align: center;
 color: #fff;
 letter-spacing: 2px;
 border-radius: 0 0 10px 10px;
+box-shadow: inset #ab3e3e -7px -5px 10px;
 }
 
 #go {
