@@ -1,4 +1,10 @@
-var n = array[Math.random () * array.length | 0];
+function up ()
+{
 
-it('name').html(n['russia'] + ' - ' + n['english']);
-it('img').at('new', 'src', n['img']);
+  var n = array[Math.random () * array.length | 0];
+
+  it('name').html(n['russia'] + ' - ' + n['english']);
+  it('img').at('new', 'src', n['img']);
+}
+
+up ();
