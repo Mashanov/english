@@ -1,7 +1,7 @@
 body {
 position: absolute;
 font-family: Arial;
-font-size: 100%;
+font-size: 125%;
 letter-spacing: 0.1px;
 padding: 0;
 height: auto;
@@ -40,8 +40,8 @@ border-radius: 0 0 10px 10px;
 position: absolute;
 right: 7%;
 bottom: 7%;
-width: 60px;
-height: 60px;
+width: 70px;
+height: 70px;
 background: #c15353;
 border-radius: 50%;
 fill: #fff;
