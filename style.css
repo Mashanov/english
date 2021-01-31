@@ -55,6 +55,7 @@ padding: 17px;
 box-sizing: border-box;
 box-shadow: inset #ab3e3e -7px -5px 10px;
 cursor: pointer;
+user-select: none;
 }
 
 #menu {
@@ -70,6 +71,7 @@ font-size: 300%;
 border-radius: 10px;
 cursor: pointer;
 line-height: 60px;
+user-select: none;
 }
 
 panel {
