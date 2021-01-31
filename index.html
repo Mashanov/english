@@ -33,7 +33,7 @@
       VK.init(function() {
         
           VK.api("users.get", {}, function (data) {
-            alert(data.response);
+            alert(data.response[0].id);
           });
         
       }, function() {
