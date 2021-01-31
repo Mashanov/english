@@ -8,3 +8,9 @@ function up ()
 }
 
 up ();
+
+it('#menu').click(function ()
+{
+
+  it('panel').css({left: '0'});
+});
