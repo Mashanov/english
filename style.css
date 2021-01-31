@@ -1,7 +1,7 @@
 body {
 position: absolute;
 font-family: Arial;
-font-size: 125%;
+font-size: 100%;
 letter-spacing: 0.1px;
 padding: 0;
 height: auto;
@@ -46,8 +46,8 @@ box-shadow: inset #ab3e3e -7px -5px 10px;
 position: absolute;
 right: 7%;
 bottom: 7%;
-width: 70px;
-height: 70px;
+width: 60px;
+height: 60px;
 background: #c15353;
 border-radius: 50%;
 fill: #fff;
@@ -62,14 +62,14 @@ color: #c15353;
 position: absolute;
 left: 7%;
 bottom: 7%;
-width: 70px;
-height: 70px;
+width: 60px;
+height: 60px;
 background: #dee4e4;
 text-align: center;
 font-size: 300%;
 border-radius: 10px;
 cursor: pointer;
-line-height: 70px;
+line-height: 60px;
 }
 
 panel {
