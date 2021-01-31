@@ -85,3 +85,13 @@ left: -105%;
 box-shadow: #c1baba 0 0 7px;
 transition: 1s;
 }
+
+#close {
+position: absolute;
+right: 10%;
+top: 25px;
+color: #c15353;
+cursor: pointer;
+user-select: none;
+outline: none;
+}
