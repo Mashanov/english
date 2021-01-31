@@ -14,3 +14,9 @@ it('#menu').click(function ()
 
   it('panel').css({left: '0'});
 });
+
+it('#close').click(function ()
+{
+  
+  it('panel').at('del', 'style');
+});
