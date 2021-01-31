@@ -71,3 +71,10 @@ border-radius: 10px;
 cursor: pointer;
 box-shadow: #8a8a8a -1px 1px 5px;
 }
+
+panel {
+position: absolute;
+width: 100%;
+height: 100%;
+background: #fff;
+}
