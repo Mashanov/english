@@ -58,5 +58,15 @@ cursor: pointer;
 }
 
 #menu {
+color: #c15353;
 position: absolute;
+left: 7%;
+bottom: 7%;
+width: 70px;
+height: 70px;
+background: #dee4e4;
+text-align: center;
+font-size: 300%;
+border-radius: 10px;
+cursor: pointer;
 }
