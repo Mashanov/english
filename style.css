@@ -57,6 +57,10 @@ box-shadow: inset #ab3e3e -7px -5px 10px;
 cursor: pointer;
 user-select: none;
 outline: none;
+border-top: 3px solid #dee4e4;
+border-right: 3px solid #dee4e4;
+border-bottom: 3px solid #dee4e4;
+border-left: 3px solid #dee4e4;
 }
 
 #menu {
