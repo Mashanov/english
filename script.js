@@ -10,22 +10,24 @@ function up ()
   {
     
     it('#go').css({borderTop: '3px solid #823a3a'});
-    
     setTimeout(function ()
     {
 
       it('#go').css({borderRight: '3px solid #823a3a'});
-
       setTimeout(function ()
       {
 
         it('#go').css({borderBottom: '3px solid #823a3a'});
-
         setTimeout(function ()
         {
 
           it('#go').css({borderLeft: '3px solid #823a3a'});
+          setTimeout(function ()
+          {
 
+            it('#go').at('del', 'style');
+
+          }, 750);
         }, 750);
       }, 750);
     }, 750);
