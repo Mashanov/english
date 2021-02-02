@@ -1,6 +1,7 @@
 function up ()
 {
 
+  it('#go').at('del', 'style');
   it('#go').css({pointerEvents: 'none',filter: 'contrast(0.8)'});
   var n = array[Math.random () * array.length | 0];
 
@@ -27,6 +28,7 @@ function up ()
           {
 
             it('#go').at('del', 'style');
+            it('#go').css({border: 'none'});
 
           }, 750);
         }, 750);
