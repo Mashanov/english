@@ -1,7 +1,7 @@
 function up ()
 {
 
-  it('#go').css({pointerEvents: 'none'});
+  it('#go').css({pointerEvents: 'none',filter: 'contrast(0.5)'});
   var n = array[Math.random () * array.length | 0];
 
   it('name').html(n['russia'] + ' - ' + n['english']);
