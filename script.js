@@ -51,3 +51,16 @@ it('#close').click(function ()
   
   it('panel').at('del', 'style');
 });
+
+function goClide ()
+{
+
+  it('#background').css({display:'block'});
+
+  setTimeout (function ()
+  {
+
+    it('#background').css({opacity: 1})
+
+  }, 0)
+};
