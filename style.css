@@ -135,6 +135,10 @@ top: 0;
 bottom: 0;
 width: fit-content;
 height: fit-content;
+background: #cdd2d8;
+box-sizing: border-box;
+padding: 30px;
+border-radius: 10px;
 }
 
 #eng-word {
@@ -153,7 +157,7 @@ font-family: cursive;
 
 #text-center {
 position: relative;
-color: #fff;
+color: #444;
 font-family: cursive;
 font-size: 130%;
 margin-bottom: 20px;
