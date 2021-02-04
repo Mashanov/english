@@ -135,7 +135,7 @@ top: 0;
 bottom: 0;
 width: fit-content;
 height: fit-content;
-background: #cdd2d8;
+background: #d9dce0;
 box-sizing: border-box;
 padding: 30px;
 border-radius: 10px;
@@ -157,7 +157,7 @@ font-family: Arial;
 
 #text-center {
 position: relative;
-color: #444;
+color: #222;
 font-family: Arial;
 font-size: 130%;
 margin-bottom: 20px;
