@@ -150,3 +150,12 @@ padding-left: 15px;
 font-size: 100%;
 font-family: cursive;
 }
+
+#text-center {
+position: relative;
+color: #fff;
+font-family: cursive;
+font-size: 130%;
+margin-bottom: 20px;
+display: block;
+}
