@@ -55,6 +55,7 @@ it('#close').click(function ()
 function goClide ()
 {
 
+  it('#text-center').html('Как будет "' + n['russia'] + '" на английском');
   it('#background').css({display:'block'});
 
   setTimeout (function ()
