@@ -66,3 +66,9 @@ function goClide ()
 
   }, 0)
 };
+
+it('#eng-word').input(function ()
+{
+
+  if (it('#eng-word').html() == n['english']) up ();
+});
