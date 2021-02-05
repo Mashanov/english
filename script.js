@@ -4,7 +4,12 @@ function up ()
 
   it('#go').at('del', 'style');
   it('#go').css({pointerEvents: 'none',filter: 'contrast(0.8)'});
-  n = array[Math.random () * array.length | 0];
+  let nBack = n;
+
+  while (nBack == n)
+  {
+    n = array[Math.random () * array.length | 0];
+  };
 
   it('name').html(n['russia'] + ' - ' + n['english']);
   it('img').at('new', 'src', n['img']);
@@ -70,7 +75,7 @@ function goClide ()
 it('#eng-word').input('on', function ()
 {
 
-  if (it('#eng-word').html() == n['english'])
+  if (it('#eng-word').html().toLowerCase() == n['english'])
   {
 
     up ();
