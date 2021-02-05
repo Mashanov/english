@@ -75,7 +75,7 @@ function goClide ()
 it('#eng-word').input('on', function ()
 {
 
-  if (it('#eng-word').html().toLowerCase() == n['english'])
+  if (it('#eng-word').html().toLowerCase().trim() == n['english'])
   {
 
     up ();
