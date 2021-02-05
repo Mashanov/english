@@ -78,3 +78,11 @@ it('#eng-word').input('on', function ()
     it('#eng-word').html('');
   }
 });
+
+it('#forgot').click(function ()
+{
+  
+  up ();
+  it('#background').at('del', 'style');
+  it('#eng-word').html('');
+});
