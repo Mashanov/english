@@ -12,6 +12,7 @@ function up ()
   };
 
   it('name').html(n['russia'] + ' - ' + n['english']);
+  it('img').at('del', 'src');
   it('img').at('new', 'src', n['img']);
   
   setTimeout(function ()
