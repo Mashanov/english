@@ -71,4 +71,5 @@ it('#eng-word').input(function ()
 {
 
   if (it('#eng-word').html() == n['english']) up ();
+  console.log(it('#eng-word').html());
 });
