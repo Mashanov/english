@@ -55,6 +55,7 @@ it('#close').click(function ()
 function goClide ()
 {
 
+  it('name').html(n['russia']);
   it('#text-center').html('Как будет "' + n['russia'] + '" на английском');
   it('#background').css({display:'block'});
 
