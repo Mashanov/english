@@ -70,6 +70,11 @@ function goClide ()
 it('#eng-word').input('on', function ()
 {
 
-  if (it('#eng-word').html() == n['english']) up ();
-  console.log(it('#eng-word').html());
+  if (it('#eng-word').html() == n['english'])
+  {
+
+    up ();
+    it('#background').at('del', 'style');
+    it('#eng-word').html('');
+  }
 });
