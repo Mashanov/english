@@ -67,7 +67,7 @@ function goClide ()
   }, 0)
 };
 
-it('#eng-word').input(function ()
+it('#eng-word').input('on', function ()
 {
 
   if (it('#eng-word').html() == n['english']) up ();
