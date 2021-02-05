@@ -173,4 +173,12 @@ display: block;
 
 #forgot {
 position: relative;
+border: none;
+outline: none;
+width: 180px;
+height: 40px;
+border-radius: 10px;
+background: #c15353;
+color: #fff;
+box-shadow: inset #ab3e3e -7px -5px 10px;
 }
