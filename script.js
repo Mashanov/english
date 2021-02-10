@@ -92,3 +92,10 @@ it('#forgot').click(function ()
   it('#background').at('del', 'style');
   it('#eng-word').html('');
 });
+
+setGame (from = false)
+{
+  
+  it('*:not([data-game="' + from + '"])"').css({display: 'none'});
+  it('*[data-game="' + from + '"]"').css({display: 'block'});
+};
