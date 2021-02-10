@@ -93,7 +93,7 @@ it('#forgot').click(function ()
   it('#eng-word').html('');
 });
 
-setGame (from = false)
+function setGame (from = false)
 {
   
   it('*[data-game]:not([data-game="' + from + '"])"').css({display: 'none'});
