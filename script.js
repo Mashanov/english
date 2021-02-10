@@ -96,6 +96,6 @@ it('#forgot').click(function ()
 function setGame (from = false)
 {
   
-  it('*[data-game]:not([data-game="' + from + '"])"').css({display: 'none'});
+  it('*[data-game]:not([data-game="' + from + '"])').css({display: 'none'});
   it('*[data-game="' + from + '"]"').css({display: 'block'});
 };
