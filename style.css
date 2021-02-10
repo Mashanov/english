@@ -33,13 +33,13 @@ right: 0;
 margin: 0 auto;
 box-sizing: border-box;
 padding: 20px;
-background: #c15353;
+background: #5389c1;
 width: fit-content;
 text-align: center;
 color: #fff;
 letter-spacing: 2px;
 border-radius: 0 0 10px 10px;
-box-shadow: inset #ab3e3e -7px -5px 10px;
+box-shadow: inset #3e6cab -7px -5px 10px;
 }
 
 #go {
@@ -48,12 +48,12 @@ right: 10%;
 bottom: 5%;
 width: 60px;
 height: 60px;
-background: #c15353;
+background: #5389c1;
 border-radius: 50%;
 fill: #fff;
 padding: 17px;
 box-sizing: border-box;
-box-shadow: inset #ab3e3e -7px -5px 10px;
+box-shadow: inset #3e6cab -7px -5px 10px;
 cursor: pointer;
 user-select: none;
 outline: none;
@@ -65,7 +65,7 @@ transition: 0.35s;
 }
 
 #menu {
-color: #c15353;
+color: #555;
 position: absolute;
 left: 10%;
 bottom: 5%;
@@ -106,7 +106,7 @@ font-size: 160%;
 position: relative;
 width: 100%;
 height: 40px;
-color: #c15353;
+color: #5389c1;
 background: #fff;
 top: 60px;
 box-sizing: border-box;
