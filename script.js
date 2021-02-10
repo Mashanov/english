@@ -18,19 +18,19 @@ function up ()
   setTimeout(function ()
   {
     
-    it('#go').css({borderTop: '3px solid #823a3a'});
+    it('#go').css({borderTop: '3px solid #475b67'});
     setTimeout(function ()
     {
 
-      it('#go').css({borderRight: '3px solid #823a3a'});
+      it('#go').css({borderRight: '3px solid #475b67'});
       setTimeout(function ()
       {
 
-        it('#go').css({borderBottom: '3px solid #823a3a'});
+        it('#go').css({borderBottom: '3px solid #475b67'});
         setTimeout(function ()
         {
 
-          it('#go').css({borderLeft: '3px solid #823a3a'});
+          it('#go').css({borderLeft: '3px solid #475b67'});
           setTimeout(function ()
           {
 
