@@ -221,11 +221,18 @@ top: -5px;
 
 #container-ball {
 position: absolute;
+top: 80px;
+width: 90%;
+left: 5%;
 }
 
 .ball {
 position: relative;
-width: 50px;
-height: 50px;
-background: green;
+width: 60px;
+height: 60px;
+border-radius: 50%;
+background: #4ea94e;
+display: inline-block;
+margin: 10px;
+box-shadow: #54595f -10px -10px 10px inset;
 }
