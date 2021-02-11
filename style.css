@@ -222,8 +222,8 @@ top: -5px;
 #container-ball {
 position: absolute;
 top: 80px;
-width: 90%;
-left: 5%;
+width: 80%;
+left: 10%;
 }
 
 .ball {
@@ -235,4 +235,5 @@ background: #4ea94e;
 display: inline-block;
 margin: 10px;
 box-shadow: #cfd3d8 -5px -5px 4px inset;
+cursor: pointer;
 }
