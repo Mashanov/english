@@ -187,3 +187,12 @@ cursor: pointer;
 *[data-game]:not([data-game="1"]) {
 display: none; 
 }
+
+#name-games {
+position: absolute;
+color: #555;
+top: 25px;
+left: 0;
+right: 0;
+margin: 0 auto;
+}
