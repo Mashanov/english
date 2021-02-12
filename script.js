@@ -109,7 +109,7 @@ function toFixedNoRounding (n)
   return Number(n.substr(0, k));
 };
 
-let array_color = [['green', '#4ea94e'],['red', '#f58383'], ['yellow', '#d8d854'], ['blue', '#78aedc'], ['orange', '#d8a251'], ['pink', '#da89d4']];
+let array_color = [['green', 'rgb(78, 169, 78)'],['red', 'rgb(245, 131, 131)'], ['yellow', 'rgb(216, 216, 84)'], ['blue', 'rgb(120, 174, 220)'], ['orange', 'rgb(216, 162, 81)'], ['pink', 'rgb(218, 137, 212)']];
 var a = null;
 
 function setGame (from = false)
