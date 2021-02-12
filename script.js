@@ -94,17 +94,18 @@ it('#forgot').click(function ()
 });
 
 Number.prototype.toFixedNoRounding = function(n) {
-  const reg = new RegExp(`^-?\\d+(?:\\.\\d{0,${n}})?`, 'g')
-  const a = this.toString().match(reg)[0];
-  const dot = a.indexOf('.');
-
-  if (dot === -1) {
-    return a + '.' + '0'.repeat(n);
-  }
-
-  const b = n - (a.length - dot) + 1;
-
-  return b > 0 ? (a + '0'.repeat(b)) : a;
+  
+  let z = false, k = 0;
+  n = n.toString ();
+  
+  do {
+    
+    if (n[k] == '.') z = true;
+    else k++;
+    
+  } while (z != true);
+  
+  return Number(n.substr(0, k));
 }
 
 function setGame (from = false)
