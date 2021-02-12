@@ -93,7 +93,7 @@ it('#forgot').click(function ()
   it('#eng-word').html('');
 });
 
-function toFixedNoRounding = (n)
+function toFixedNoRounding (n)
 {
   
   let z = false, k = 0;
