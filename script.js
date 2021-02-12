@@ -129,7 +129,7 @@ function setGame (from = false)
     case 2:
       it('#close').click();
       
-      it('#container-ball').html();
+      it('#container-ball').html('');
       
       let array_color = ['#4ea94e','#f58383', '#d8d854', '#78aedc', '#d8a251', '#da89d4'];
       
