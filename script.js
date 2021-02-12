@@ -123,11 +123,13 @@ function setGame (from = false)
       
       it('#container-ball').html();
       
+      let array_color = ['#4ea94e','#f58383', '#d8d854', '#78aedc', '#d8a251', '#da89d4'];
+      
       var a = toFixedNoRounding (Number.parseInt(it('#container-ball').css('width')) / 75) * toFixedNoRounding (Number.parseInt(it('#container-ball').css('height')) / 75);
       for (var i = 0; i != a; i++)
       {
 
-        it('#container-ball').append(`<div class="ball"></div>`);
+        it('#container-ball').append(`<div class="ball" style="background: ` + array_color[Math.random () * array_color.length | 0] + `"></div>`);
       };
       break;
   }
