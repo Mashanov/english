@@ -12,8 +12,8 @@ function up ()
   };
 
   it('name').html(n['russia'] + ' - ' + n['english']);
-  it('img').at('del', 'src');
-  it('img').at('new', 'src', n['img']);
+  it('img[data-game="1"]').at('del', 'src');
+  it('img[data-game="1"]').at('new', 'src', n['img']);
   
   setTimeout(function ()
   {
