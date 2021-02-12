@@ -109,7 +109,7 @@ function toFixedNoRounding (n)
   return Number(n.substr(0, k));
 };
 
-let array_color = [['green', '#4ea94e'],['red', '#f58383'], ['orange', '#d8d854'], ['blue', '#78aedc'], ['yellow', '#d8a251'], ['pink', '#da89d4']];
+let array_color = [['green', '#4ea94e'],['red', '#f58383'], ['yellow', '#d8d854'], ['blue', '#78aedc'], ['orange', '#d8a251'], ['pink', '#da89d4']];
 
 function setGame (from = false)
 {
