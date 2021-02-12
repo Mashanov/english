@@ -140,5 +140,9 @@ function setGame (from = false)
         it('#container-ball').append(`<div class="ball" style="background: ` + array_color[Math.random () * array_color.length | 0] + `"></div>`);
       };
       break;
+      
+     case 3:
+      it('#close').click();
+      break;
   }
 };
