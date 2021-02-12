@@ -108,7 +108,7 @@ function setGame (from = false)
       it('#container-ball').html();
       
       var a = (Number.parseInt(it('#container-ball').css('width')) / 75) * (Number.parseInt(it('#container-ball').css('height')) / 75);
-      for (var i = 0; i != ; i++)
+      for (var i = 0; i != a; i++)
       {
 
         it('#container-ball').append(`<div class="ball"></div>`);
