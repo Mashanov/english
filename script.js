@@ -112,8 +112,16 @@ function toFixedNoRounding (n)
 function setGame (from = false)
 {
   
-  it('*[data-game]:not([data-game="' + from + '"])').css({display: 'none'});
-  it('*[data-game="' + from + '"]').css({display: 'block'});
+  it('#root-game').html(`
+
+    *[data-game]:not([data-game="` + from + `"]) {
+    display: none;
+    }
+
+    *[data-game="` + from + `"] {
+    display: block;
+    }
+  `);
   
   switch (from)
   {
