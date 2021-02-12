@@ -245,6 +245,15 @@ letter-spacing: 3px;
 }
 
 .close-game {
+cursor: pointer;
 position: absolute;
-bottom: 30px;
+bottom: 5%;
+left: calc(10% + 80px);
+width: 150px;
+height: 30px;
+background: #c38080;
+color: #fff;
+text-align: center;
+line-height: 30px;
+border-radius: 10px;
 }
