@@ -238,5 +238,8 @@ cursor: pointer;
 #panel-name-menu {
 position: absolute;
 color: #555;
-font-size: 130%;
+font-size: 160%;
+left: 25px;
+top: 25px;
+letter-spacing: 3px;
 }
