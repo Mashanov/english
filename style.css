@@ -243,3 +243,8 @@ left: 25px;
 top: 25px;
 letter-spacing: 3px;
 }
+
+.close-game {
+position: absolute;
+bottom: 30px;
+}
