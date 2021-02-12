@@ -222,9 +222,9 @@ top: -5px;
 #container-ball {
 position: absolute;
 top: 80px;
-width: 80%;
+width: 90%;
 height: calc(100% - 180px);
-left: 10%;
+left: 5%;
 text-align: center;
 }
 
