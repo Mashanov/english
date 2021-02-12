@@ -234,3 +234,9 @@ margin: 10px;
 box-shadow: #677992 -5px -5px 4px inset;
 cursor: pointer;
 }
+
+#panel-name-menu {
+position: absolute;
+color: #555;
+font-size: 130%;
+}
