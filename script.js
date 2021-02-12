@@ -109,6 +109,8 @@ function toFixedNoRounding (n)
   return Number(n.substr(0, k));
 };
 
+let array_color = [['green', '#4ea94e'],['red', '#f58383'], ['orange', '#d8d854'], ['blue', '#78aedc'], ['yellow', '#d8a251'], ['pink', '#da89d4']];
+
 function setGame (from = false)
 {
   
@@ -131,13 +133,11 @@ function setGame (from = false)
       
       it('#container-ball').html('');
       
-      let array_color = ['#4ea94e','#f58383', '#d8d854', '#78aedc', '#d8a251', '#da89d4'];
-      
       var a = toFixedNoRounding (Number.parseInt(it('#container-ball').css('width')) / 75) * toFixedNoRounding (Number.parseInt(it('#container-ball').css('height')) / 75);
       for (var i = 0; i != a; i++)
       {
 
-        it('#container-ball').append(`<div class="ball" style="background: ` + array_color[Math.random () * array_color.length | 0] + `"></div>`);
+        it('#container-ball').append(`<div class="ball" style="background: ` + array_color[Math.random () * array_color.length | 0][1] + `"></div>`);
       };
       break;
       
