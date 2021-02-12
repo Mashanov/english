@@ -167,5 +167,7 @@ function ball (from)
 
       a = array_color[Math.random () * array_color.length | 0];
     }
+    
+    it('#name-games').html(`Лопайте шарики цвета <font style="color: ` + a[1] + `;font-weight: 600;">` + a[0] + `</font>`);
   }
 };
