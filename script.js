@@ -157,5 +157,15 @@ function ball (from)
   
   if (from.style.background == a[1]) from.remove ();
   
-  if (!d.querySelector('*[data-rgb="' + from.getAttribute('data-rgb') + '"]')) console.log(555);
+  if (!d.querySelector('.ball')) return setGame(2);
+  
+  if (!d.querySelector('*[data-rgb="' + from.getAttribute('data-rgb') + '"]'))
+  {
+    
+    while (!d.querySelector('*[data-rgb="' + a[0] + '"]'))
+    {
+
+      a = array_color[Math.random () * array_color.length | 0];
+    }
+  }
 };
