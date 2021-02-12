@@ -93,7 +93,8 @@ it('#forgot').click(function ()
   it('#eng-word').html('');
 });
 
-Number.prototype.toFixedNoRounding = function(n) {
+function toFixedNoRounding = (n)
+{
   
   let z = false, k = 0;
   n = n.toString ();
@@ -106,7 +107,7 @@ Number.prototype.toFixedNoRounding = function(n) {
   } while (z != true);
   
   return Number(n.substr(0, k));
-}
+};
 
 function setGame (from = false)
 {
@@ -122,7 +123,7 @@ function setGame (from = false)
       
       it('#container-ball').html();
       
-      var a = (Number.parseInt(it('#container-ball').css('width')) / 75).toFixedNoRounding () * (Number.parseInt(it('#container-ball').css('height')) / 75).toFixedNoRounding ();
+      var a = toFixedNoRounding (Number.parseInt(it('#container-ball').css('width')) / 75) * toFixedNoRounding (Number.parseInt(it('#container-ball').css('height')) / 75);
       for (var i = 0; i != a; i++)
       {
 
