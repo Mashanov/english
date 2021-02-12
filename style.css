@@ -195,10 +195,6 @@ box-shadow: inset #3e6cab -7px -5px 10px;
 cursor: pointer;
 }
 
-*[data-game]:not([data-game="1"]) {
-display: none; 
-}
-
 #name-games {
 position: absolute;
 color: #555;
