@@ -228,8 +228,8 @@ left: 10%;
 
 .ball {
 position: relative;
-width: 60px;
-height: 60px;
+width: 55px;
+height: 55px;
 border-radius: 50%;
 background: #4ea94e;
 display: inline-block;
