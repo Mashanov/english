@@ -93,6 +93,20 @@ it('#forgot').click(function ()
   it('#eng-word').html('');
 });
 
+Number.prototype.toFixedNoRounding = function(n) {
+  const reg = new RegExp(`^-?\\d+(?:\\.\\d{0,${n}})?`, 'g')
+  const a = this.toString().match(reg)[0];
+  const dot = a.indexOf('.');
+
+  if (dot === -1) {
+    return a + '.' + '0'.repeat(n);
+  }
+
+  const b = n - (a.length - dot) + 1;
+
+  return b > 0 ? (a + '0'.repeat(b)) : a;
+}
+
 function setGame (from = false)
 {
   
@@ -107,7 +121,7 @@ function setGame (from = false)
       
       it('#container-ball').html();
       
-      var a = (Number.parseInt(it('#container-ball').css('width')) / 75).toFixed () * (Number.parseInt(it('#container-ball').css('height')) / 75).toFixed ();
+      var a = (Number.parseInt(it('#container-ball').css('width')) / 75).toFixedNoRounding () * (Number.parseInt(it('#container-ball').css('height')) / 75).toFixedNoRounding ();
       for (var i = 0; i != a; i++)
       {
 
