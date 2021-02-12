@@ -138,7 +138,7 @@ function setGame (from = false)
       for (var i = 0; i != a; i++)
       {
 
-        it('#container-ball').append(`<div class="ball" style="background: ` + array_color[Math.random () * array_color.length | 0][1] + `"></div>`);
+        it('#container-ball').append(`<div class="ball" onclick="ball (this)" style="background: ` + array_color[Math.random () * array_color.length | 0][1] + `"></div>`);
       };
       
       a = array_color[Math.random () * array_color.length | 0];
@@ -149,4 +149,10 @@ function setGame (from = false)
       it('#close').click();
       break;
   }
+};
+
+function ball (from)
+{
+  
+  if (from.style.background == a[1]) from.remove ();
 };
