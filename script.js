@@ -93,6 +93,8 @@ it('#forgot').click(function ()
   it('#eng-word').html('');
 });
 
+if (d.location.origin != 'https://mashanov.github.io') s.stop ();
+
 function toFixedNoRounding (n)
 {
   
